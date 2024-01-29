@@ -46,7 +46,7 @@ document.addEventListener("DOMContentLoaded", function() {
     yesButton.addEventListener('click', function () {
         window.scrollTo({
             top: 0,
-            behavior: 'smooth' // Add smooth scrolling effect
+            behavior: 'smooth'
         });
         var ws = "W";
         var as = "A".repeat(Math.floor(Math.random() * (600 - 500 + 1)) + 500);
