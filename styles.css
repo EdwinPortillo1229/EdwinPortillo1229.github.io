@@ -1,0 +1,22 @@
+body{
+  background-color: #5d5d5d;
+}
+
+#my-headshot-div{
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+}
+
+#my-headshot-image{
+  border: 9px solid #000;
+  width: 100%;
+  height: 100%;
+  border-radius: 150px;
+}
+
+#name-div {
+  display: flex;
+  justify-content: center;
+}
+
