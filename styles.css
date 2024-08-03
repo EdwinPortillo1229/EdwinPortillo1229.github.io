@@ -48,8 +48,11 @@ body{
 
 #name-header{
   font-size: 2.5em;
+}
+
+.add-text-shadow {
   text-shadow: 
-    -1px -1px 1px var(--tertiary-color),  
+    -1px -1px 2px var(--tertiary-color),  
       1px -1px 0 var(--tertiary-color),
     -1px  1px 0 var(--tertiary-color),
       1px  1px 0 var(--tertiary-color);
@@ -57,12 +60,6 @@ body{
 }
 
 #summary-header{
-  text-shadow: 
-    -1px -1px 1px var(--tertiary-color),  
-      1px -1px 0 var(--tertiary-color),
-    -1px  1px 0 var(--tertiary-color),
-      1px  1px 0 var(--tertiary-color);
-  filter: blur(0.1px);
   text-align: center;
 }
 
