@@ -23,8 +23,7 @@ body{
 }
 
 #name-div {
-  display: flex;
-  justify-content: center;
+  text-align: center;
 }
 
 #name-header{
