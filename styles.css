@@ -8,6 +8,8 @@
 body{
   background-color: var(--primary-color);
   color: var(--secondary-color);
+  font-family: 'Open Sans', sans-serif;
+  height: 5000px;
 }
 
 #my-headshot-div{
@@ -28,12 +30,29 @@ body{
 }
 
 #name-header{
-  font-size: 3em;
+  font-size: 2.5em;
   text-shadow: 
-    -1px -1px 0 var(--tertiary-color),  
+    -1px -1px 1px var(--tertiary-color),  
       1px -1px 0 var(--tertiary-color),
     -1px  1px 0 var(--tertiary-color),
       1px  1px 0 var(--tertiary-color);
   filter: blur(0.1px);
 }
 
+#summary-header{
+  text-shadow: 
+    -1px -1px 1px var(--tertiary-color),  
+      1px -1px 0 var(--tertiary-color),
+    -1px  1px 0 var(--tertiary-color),
+      1px  1px 0 var(--tertiary-color);
+  filter: blur(0.1px);
+  text-align: center;
+}
+
+#summary-body-div{
+  color: var(--tertiary-color);
+  width: 75%;
+  text-align: center;
+  margin: auto;
+  position: relative;
+}
