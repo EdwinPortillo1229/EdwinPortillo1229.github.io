@@ -20,13 +20,13 @@ body{
   top: 0;
   left: 0;
   background-color: var(--tertiary-color);
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); /* Increased shadow for more prominence */
   z-index: 99;
 }
 
 #scrollable-area {
   margin-top: var(--nav-bar-height);
-  padding-top: 5px;
+  padding-top: 15px;
 }
 
 #my-headshot-div{
