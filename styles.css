@@ -3,6 +3,7 @@
     --secondary-color: #E8BA40;
     --tertiary-color: #C7395F;
     --quaternary-color: #685634;
+    --nav-bar-height: 75px;
 }
 
 body{
@@ -10,6 +11,22 @@ body{
   color: var(--secondary-color);
   font-family: 'Open Sans', sans-serif;
   height: 5000px;
+}
+
+#nav-bar{
+  width: 100%;
+  height: var(--nav-bar-height);
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: var(--tertiary-color);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  z-index: 99;
+}
+
+#scrollable-area {
+  margin-top: var(--nav-bar-height);
+  padding-top: 5px;
 }
 
 #my-headshot-div{
