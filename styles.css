@@ -52,7 +52,7 @@ body{
 
 .add-text-shadow {
   text-shadow: 
-    -1px -1px 2px var(--tertiary-color),  
+    -1px -1px 1px var(--tertiary-color),  
       1px -1px 0 var(--tertiary-color),
     -1px  1px 0 var(--tertiary-color),
       1px  1px 0 var(--tertiary-color);
