@@ -1,15 +1,48 @@
 :root {
-    --primary-color: #DED4E8;
-    --secondary-color: #E8BA40;
-    --tertiary-color: #C7395F;
-    --quaternary-color: #685634;
-    --nav-bar-height: 75px;
+  --dark-green: #013e01;
+  --medium-green: #00A550;
+  --light-green: #90EE90;
 }
 
 body {
-    padding-top: 56px; /* Height of navbar */
+    padding-top: 56px;
 }
 
 html {
-    scroll-behavior: smooth; /* Smooth scrolling */
+    scroll-behavior: smooth;
+}
+
+.navbar{
+  background-color: var(--dark-green);
+}
+
+.navbar a{
+  color: #fff;
+}
+
+#about-section {
+  background-color: #eaf9ea;
+}
+
+#projects-section {
+  background-color: #e0f2e0;
+}
+
+#contact-section {
+  background-color: #eaf9ea;
+}
+
+.btn-primary {
+  background-color: var(--dark-green) !important;
+  border-color: var(--dark-green) !important;
+}
+
+.btn-primary:hover{
+  background-color: var(--medium-green) !important;
+  border-color: var(--medium-green) !important;
+}
+
+.btn-secondary{
+  background-color: var(--medium-green) !important;
+  border-color: var(--medium-green) !important;
 }
