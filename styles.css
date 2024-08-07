@@ -11,6 +11,7 @@ body{
   color: var(--secondary-color);
   font-family: 'Open Sans', sans-serif;
   height: 5000px;
+  margin: 0;
 }
 
 #nav-bar{
@@ -58,14 +59,20 @@ body{
       1px  1px 0 var(--tertiary-color);
 }
 
-#summary-header{
+#summary {
+}
+
+#summary-header-div{
+  background-color: var(--tertiary-color);
+  width: 25%;
   text-align: center;
+}
+
+#summary-header{
 }
 
 #summary-body-div{
   color: var(--tertiary-color);
   width: 75%;
-  text-align: center;
-  margin: auto;
   position: relative;
 }
