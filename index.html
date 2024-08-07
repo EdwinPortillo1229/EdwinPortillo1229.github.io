@@ -13,39 +13,107 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap">
 </head>
 <body>
-  <div id="nav-bar">
-  </div>
-  <div id="scrollable-area">
-    <div id="my-description-div">
-      <div id="my-headshot-div">
-        <img id="my-headshot-image" src="images/edwin_headshot.jpg">
-      </div>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <a class="navbar-brand">Edwin's Portfolio</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item"><a class="nav-link" href="#about-section">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="#projects-section">Projects</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact-section">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
 
-      <div id="name-div" class="add-text-shadow">
-        <h1 id="name-header">Edwin Portillo Vasquez</h1>
-      </div>
+  <section id="hero-section" class="d-flex align-items-center" style="height:50vh; background: url('images/hero.jpg') no-repeat center center/cover;">
+    <div class="container text-center">
+      <h1 class="display-5 text-white">Edwin Portillo Vasquez</h1>
+      <p class="text-white lead">Software Engineer with 2+ years of experience, specializing in Ruby on Rails, JavaScript, Python, and React</p>
+      <a href="#about-section" class="btn btn-dark btn-lg">Learn More</a>
+    </div>
+  </section>
 
-      <div id="summary">
-        <div id="summary-header-div">
-          <h2 id="summary-header" class="add-text-shadow">
-            Who am I?
-          </h2>
-        </div>
-        <div id="summary-body-div">
-          <b id="summary-body">
-              At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium 
-              voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati 
-              cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id 
-              est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero 
-              tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat 
-              facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut 
-              officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. 
-              Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis 
-              voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.
-          </b>
+  <section id="about-section" class="py-5">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-md-8">
+          <div class="card shadow">
+            <div class="card-body">
+              <div class="text-center mb-4">
+                <img src="images/edwin_headshot.jpg" class="rounded-circle" width="150" height="150" alt="Edwin Portillo Vasquez">
+              </div>
+              <h2 class="card-title text-center">About Me</h2>
+              <p class="card-text">
+                Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab 
+                illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur 
+                aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem 
+                ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam 
+                aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex 
+                ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui 
+                dolorem eum fugiat quo voluptas nulla pariatur
+              </p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
-  </div>
+  </section>
+
+
+  <section id="projects-section" class="py-5 bg-light">
+    <div class="container">
+      <h2 class="text-center mb-5">Projects</h2>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+            <img src="images/project1.jpg" class="card-img-top" alt="Project 1">
+            <div class="card-body">
+              <h5 class="card-title">Project 1</h5>
+              <p class="card-text">Brief description of the project...</p>
+              <a href="#" class="btn btn-dark">View Project</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+            <img src="images/project2.jpg" class="card-img-top" alt="Project 2">
+            <div class="card-body">
+              <h5 class="card-title">Project 2</h5>
+              <p class="card-text">Brief description of the project...</p>
+              <a href="#" class="btn btn-dark">View Project</a>
+            </div>
+          </div>
+        </div>
+        <!-- Add more projects as needed -->
+      </div>
+    </div>
+  </section>
+
+  <section id="contact-section" class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">Contact Me</h2>
+      <div class="row justify-content-center">
+        <div class="col-md-6">
+          <form>
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" class="form-control" id="name" placeholder="Your Name">
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" class="form-control" id="email" placeholder="Your Email">
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea class="form-control" id="message" rows="4" placeholder="Your Message"></textarea>
+            </div>
+            <button type="submit" class="btn btn-dark btn-block">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
 </body>
 </html>
