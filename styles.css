@@ -4,20 +4,16 @@
   --light-green: #90EE90;
 }
 
-body {
-    padding-top: 56px;
-}
-
 html {
     scroll-behavior: smooth;
 }
 
 .navbar{
-  background-color: var(--dark-green);
+  background-color: var(--dark-green) !important;
 }
 
 .navbar a{
-  color: #fff;
+  color: #fff !important;
 }
 
 #about-section {
