@@ -46,3 +46,7 @@ html {
   background-color: var(--medium-green) !important;
   border-color: var(--medium-green) !important;
 }
+
+#links-container{
+  gap: 10px;
+}
